@@ -2,7 +2,7 @@
   "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name": "@ubirch/angularx-qrcode",
   "version": "12.0.0",
-  "author": "Beate Fiss <beate.fiss@ubirch.com> (https://ubirch.com) - based on angularx-qrcode from Andreas Jacob <andreas@cordobo.de (http://cordobo.com/)",
+  "author": "Beate Fiss <beate.fiss@ubirch.com> (https://ubirch.com) - based on angularx-qrcode from Andreas Jacob <andreas@cordobo.de> (http://cordobo.com/)",
   "description": "Simple QRCode module generator for Angular12 and Ionic 4/5 using node-qrcode - based on the great work on angularx-qrcode package of Andreas Jacob <andreas@cordobo.de (http://cordobo.com/)",
   "license": "MIT",
   "ngPackage": {
