@@ -23,7 +23,7 @@
     "build:demo:prod": "npm run build && ng build demo-app --configuration production"
   },
   "dependencies": {
-    "qrcode": "^1.4.4"
+    "qrcode": "^1.4.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.13",

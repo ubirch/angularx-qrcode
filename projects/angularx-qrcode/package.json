@@ -18,9 +18,14 @@
     "build": "ng-packagr -p package.json"
   },
   "peerDependencies": {
-    "@angular/core": "~12.2.13",
+    "@angular/core": "~12.2.13"
+  },
+  "dependencies": {
     "qrcode": "1.4.2"
   },
+  "whitelistedNonPeerDependencies": [
+    "qrcode"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ubirch/angularx-qrcode.git"
