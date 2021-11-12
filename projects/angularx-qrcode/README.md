@@ -24,9 +24,9 @@ Angular 12 requires @ubirch/angularx-qrcode 12:
 
 ```
 # Angular 12 and Ionic
-npm install @ubirch/angularx-qrcode --save
+npm install qrcode @ubirch/angularx-qrcode --save
 # Or use yarn
-yarn add @ubirch/angularx-qrcode
+yarn add qrcode @ubirch/angularx-qrcode
 ```
 
 ## Basic Usage
