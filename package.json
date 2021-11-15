@@ -17,7 +17,8 @@
     "start:demo": "ng serve demo-app --open",
     "dev:demo": "lite-server --baseDir=\"dist/demo-app\"",
     "build:demo": "npm run build && ng build demo-app",
-    "build:demo:prod": "npm run build && ng build demo-app --configuration production"
+    "build:demo:prod": "npm run build && ng build demo-app --configuration production",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "qrcode": "^1.4.2"
@@ -78,6 +79,9 @@
   },
   "bugs": {
     "url": "https://github.com/ubirch/angularx-qrcode/issues"
+  },
+  "resolutions": {
+    "ansi-regex": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
   },
   "homepage": "https://github.com/ubirch/angularx-qrcode#readme"
 }
