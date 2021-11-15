@@ -1,7 +1,7 @@
 # @ubirch/angularx-qrcode
 
-`@ubirch/angularx-qrcode` is a fast and easy-to-use Ionic 4/5 and Angular 12 QR Code component/module library to generate QR Codes (Quick Response)
-in your Ionic and Angular 12 app with support for AOT and the Ivy compiler and runtime.
+`@ubirch/angularx-qrcode` is a fast and easy-to-use Ionic 4/5 and Angular 12/13 QR Code component/module library to generate QR Codes (Quick Response)
+in your Ionic and Angular app with support for AOT and the Ivy compiler and runtime.
 It is a drop-in replacement for the no-longer-maintained `angularx-qrcode` package of Andreas Jacob <andreas@cordobo.de (http://cordobo.com/)
 which was a replacement for angular2 component `ng2-qrcode` and based on node-qrcode.
 
@@ -18,15 +18,22 @@ and open the url `http://localhost:4200/` in your browser
 For versions prior to 12 use angularx-qrcode
 [github.com/Cordobo/angularx-qrcode](https://github.com/Cordobo/angularx-qrcode).
 
+## Install @ubirch/angularx-qrcode with Angular 13
+
+The latest version of @ubirch/angularx-qrcode version works with Angular 13:
+
+```
+# Angular 13 and Ionic
+npm install @ubirch/angularx-qrcode --save
+```
+
 ## Install @ubirch/angularx-qrcode 12.0.x with Angular 12
 
-Angular 12 requires @ubirch/angularx-qrcode 12:
+Angular 12 requires @ubirch/angularx-qrcode version 12.0.0:
 
 ```
 # Angular 12 and Ionic
-npm install qrcode @ubirch/angularx-qrcode --save
-# Or use yarn
-yarn add qrcode @ubirch/angularx-qrcode
+npm install @ubirch/angularx-qrcode@12.0.0 --save
 ```
 
 ## Basic Usage
